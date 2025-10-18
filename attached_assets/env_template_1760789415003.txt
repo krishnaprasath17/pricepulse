@@ -1,0 +1,29 @@
+# Flask Configuration
+SECRET_KEY=your-secret-key-here
+FLASK_ENV=development
+FLASK_DEBUG=True
+
+# Database Configuration
+DATABASE_URL=mysql+pymysql://root:password@localhost/pricepulse
+PRODUCTION_DATABASE_URL=mysql+pymysql://user:password@prod-db-host/pricepulse
+
+# Scraping Configuration
+SCRAPING_ENABLED=True
+SCRAPING_INTERVAL_HOURS=24
+MAX_RETRIES=3
+REQUEST_DELAY_SECONDS=1.0
+
+# Selenium Configuration
+SELENIUM_HEADLESS=True
+SELENIUM_TIMEOUT=10
+
+# API Configuration
+API_RATE_LIMIT=100 per hour
+
+# Cache Configuration
+CACHE_TYPE=simple
+CACHE_DEFAULT_TIMEOUT=300
+
+# Logging Configuration
+LOG_LEVEL=INFO
+LOG_FILE=app.log

@@ -1,0 +1,17 @@
+# 1. Change directory to the project folder (adjust path if needed)
+cd "C:\Users\mkpra\Downloads\Price pulse_final\PricePulse\PricePulse"
+
+# 2. Create virtual environment and activate it
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+
+# 3. Upgrade pip (optional but recommended)
+python -m pip install --upgrade pip
+
+# 4. Install dependencies
+pip install -r .\requirements.txt
+
+# 5. (Optional) Create .env from template - create a file named .env in this folder with values shown below
+
+# 6. Start the app (this uses SQLite runner run_app.py)
+python .\run_app.py
