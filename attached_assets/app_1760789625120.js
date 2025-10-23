@@ -163,7 +163,7 @@ class PricePulseApp {
                 '/static/images/modern_smartphone_mo_eaff691a.jpg'
             ],
             'Laptops': [
-                '/static/images/modern_laptop_comput_85fcc696.jpg'
+                '/static/images/6949f958-1e38-4f35-a327-a9d4285030bb.png'
             ],
             'Headphones': [
                 '/static/images/modern_wireless_head_af4d6f0f.jpg'
@@ -205,7 +205,7 @@ class PricePulseApp {
                 <div class="card product-card h-100 shadow-sm fade-in">
                     <div class="product-image position-relative overflow-hidden">
                         ${couponBadge}
-                        <img src="${imgSrc}" alt="${product.productName}" class="w-100 h-100 object-fit-cover product-img" onerror="this.onerror=null;this.src='/static/images/modern_smartphone_mo_eaff691a.jpg'">
+                        <img src="${imgSrc}" alt="${product.productName}" class="w-100 h-100 object-fit-cover product-img" onerror="this.onerror=null;this.src='/static/images/6949f958-1e38-4f35-a327-a9d4285030bb.png'">
                         <div class="image-overlay d-flex flex-column justify-content-between p-2">
                             <div class="d-flex justify-content-end">
                                 <!-- brand badge removed -->

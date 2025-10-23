@@ -152,7 +152,7 @@ class PricePulseApp {
     getImageForProduct(product) {
         const imagesByCategory = {
             'Phones': '/static/images/modern_smartphone_mo_eaff691a_1760789607574.jpg',
-            'Laptops': '/static/images/modern_laptop_comput_85fcc696_1760789607574.jpg',
+            'Laptops': '/static/images/6949f958-1e38-4f35-a327-a9d4285030bb.png',
             'Headphones': '/static/images/modern_wireless_head_af4d6f0f_1760789607575.jpg'
         };
 
@@ -184,7 +184,7 @@ class PricePulseApp {
                 <div class="product-image position-relative overflow-hidden">
                     ${amazonCouponBadge}
                     ${flipkartCouponBadge}
-                    <img src="${imgSrc}" alt="${product.productName}" class="w-100 h-100 object-fit-cover product-img" onerror="this.onerror=null;this.src='/static/images/modern_smartphone_mo_eaff691a_1760789607574.jpg'">
+                    <img src="${imgSrc}" alt="${product.productName}" class="w-100 h-100 object-fit-cover product-img" onerror="this.onerror=null;this.src='/static/images/6949f958-1e38-4f35-a327-a9d4285030bb.png'">
                     <div class="image-overlay d-flex flex-column justify-content-between p-2">
                         <div></div>
                         <div class="d-flex justify-content-between align-items-end">
